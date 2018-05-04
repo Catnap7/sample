@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%="test2.jsp" %>
+<%="test2.test tset" %>
 </body>
 </html>
