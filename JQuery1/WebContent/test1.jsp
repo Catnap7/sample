@@ -9,5 +9,6 @@
 <body>
 <%="test1.jsp" %>
 <%="test1 local" %>
+    <%="test.github" %>
 </body>
 </html>
