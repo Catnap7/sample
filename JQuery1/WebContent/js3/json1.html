@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<script src="../js/jquery-3.3.1.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$.getJSON('json1.jsp',function(data){
+			$.each(data,function(index,item){
+				$('body').append(item.id+""+item.pass+""+item.name);
+			});
+			//body 태그 출력 
+		});
+	
+	
+	});
+</script>
+
+
+<body>
+<!-- 	js3/json1.html -->
+
+
+
+
+
+
+</body>
+</html>
